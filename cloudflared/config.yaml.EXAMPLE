@@ -1,0 +1,8 @@
+tunnel: uuid-do-tunnel
+credentials-file: caminhno-do-uuid-do-tunnel.json
+
+ingress:
+  - hostname: url-do-site-alvo
+    service: serviço-interno-que-ele-aponta:porta
+
+  - service: http_status:status-padrao-do-http (404)
