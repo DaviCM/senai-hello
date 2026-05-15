@@ -1,0 +1,8 @@
+tunnel: b75f73a9-026d-4328-a2ea-964d474635b6
+credentials-file: /etc/cloudflared/b75f73a9-026d-4328-a2ea-964d474635b6.json
+
+ingress:
+  - hostname: app.liquamonitor.dev
+    service: http://caddy:80
+
+  - service: http_status:404

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Google+Sans');
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #22242a;
+    padding: 15px;
+}
+
+.headerInfo {
+    color: lightgray;
+    font-family: Arimo;
+    font-weight: normal;
+    font-size: 13.5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.loginButton {
+    background-color: #b3d7ef;
+    color: black;
+    font-family: Arimo;
+    font-weight: normal;
+    font-size: 14px;
+    width: 100px;
+    height: 40px;
+    border-width: 0;
+    border-radius: 25px;
+    margin-left: 15px;
+}
+
+.background {
+    background-color: #22242a;
+    margin: 0;
+}
+
+.main {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    background-color: #22242a;
+}
+
+.logo {
+    grid-row: 1;
+    color: white;
+    font-family: Google Sans;
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 190px;
+    margin-bottom: 30px;
+}
+
+.searchBar {
+    grid-row: 2;
+    background-color: #4d5156;
+    color: white;
+    font-family: Arimo;
+    font-weight: normal;
+    font-size: 17px;
+    width: 650px;
+    height: 20px;
+    border-width: 0;
+    border-radius: 35px;
+    padding: 16px;
+    padding-left: 65px;
+    margin-bottom: 30px;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: -120px;
+}
+
+.searchButton {
+    grid-row: 3;
+    background-color: #303134;
+    color: white;
+    font-family: Google Sans;
+    font-weight: medium;
+    font-size: 14px;
+    border-width: 0;
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.footer {
+    display: flex;
+    background-color: #16171a;
+    position: absolute;
+    width: stretch;
+    bottom: 0px;
+}
+
+.footerInfo {
+    color: lightgray;
+    font-family: Arimo;
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.addIcon {
+    position: relative;
+    bottom: 68px;
+    right: 325px;
+}
+
+.keyboardIcon {
+    position: relative;
+    bottom: 92px;
+    left: 205px;
+}
+
+.micIcon {
+    position: relative;
+    bottom: 116px;
+    left: 245px;
+}
+
+.lensIcon {
+    position: relative;
+    bottom: 140px;
+    left: 285px;
+}
+
+.searchIcon {
+    position: relative;
+    bottom: 164px;
+    left: 325px;
+}

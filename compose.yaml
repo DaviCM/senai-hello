@@ -1,0 +1,20 @@
+services:
+ caddy:
+  image: caddy:2.11.2
+  container_name: caddy
+  volumes:
+   - ./Caddyfile:/etc/caddy/Caddyfile
+   - ./static/:/var/static
+   - caddy_data:/data
+
+ cloudflared:
+  image: cloudflare/cloudflared:latest
+  container_name: cloudflared
+  volumes:
+   - ./cloudflared:/etc/cloudflared
+  depends_on:
+   - caddy
+  command: tunnel run
+
+volumes:
+ caddy_data:

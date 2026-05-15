@@ -1,0 +1,11 @@
+{
+    storage file_system /data
+    auto_https off
+}
+
+http://app.liquamonitor.dev {
+    root * /var/static
+    file_server {
+        index hello.html
+    }
+}
